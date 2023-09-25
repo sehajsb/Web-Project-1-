@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body style="background-color:red;"></body>
+    <!-- Name: Sehaj Singh Brar -->
+    <!-- Course: Web Developement 20S -->
+    <!-- Teacher: Ms. Hoitink -->
+    <!-- School: Pembina Trails Collegiate -->
+    <!-- Date Last Modified: Saturday, September 23,2023 -->
+    <center>
+      <header> <!-- This header is about Sports -->
+          <u><h1>Sports</h1></u>
+          <h2>
+            I love sports. This website is about some of the sports I like.
+          </h2>
+          <h3> Click the images to learn more about each sport</h3>
+      </header>
+        <section> <!-- This section talks about Basketball when you click the image you learn more about basketball.-->
+          <u><h1>BASKETBALL</h1></u>
+          <a href="aboutbasketball.html">
+            <figure>
+            <img src="imgfolder/basketball.jfif" width="900" height="500" alt="a net with basketball" />
+            </figure>
+          </a>
+          <hr />
+          <hr />
+        </section>
+
+        <section> <!-- This section talks about Babminton when you click the image you learn more about badminton.-->
+          <u><h1>BADMINTON</h1></u>
+          <a href="aboutbadminton.html">
+            <figure>
+            <img src="imgfolder/badminton.jpg" width="900" height="500" alt=""/>
+            </figure>
+          </a>
+          <hr />
+          <hr />
+        </section>
+
+        <section> <!-- This section talks about Volleyball when you click the image you learn more about volleyball.-->
+          <u><h1>VOLLEYBALL</h1></u>
+          <a href="aboutvolleyball.html">
+          <figure>
+            <img src="imgfolder/volleyball.jpg" width="900" height="550" alt=""/>
+          </figure>
+          </a>
+          <hr />
+          <hr />
+        </section>
+
+        <section> <!-- This section talks about Soccer when you click the image you learn more about soccer.-->
+          <u><h1>SOCCER</h1></u>
+          <a href="aboutsoccer.html">
+          <figure>
+            <img src="imgfolder/soccer.jpg" width="900" height="500" alt="bla"/>
+          </figure>
+          </a>
+          <hr />
+          <hr />
+        </section>
+
+      <h3> After learning about these sports rank them 1 to 4, 1 meaning you want to play it the most and 4 meaning you want to play it the list. This is my ranking list</h3> <br> <br>
+      <table> <!--This is a table that shows the person my ranking of the sports-->
+        <tr>
+          <th> Rank </th>
+          <th> Sports </th>
+        </tr>
+        <tr>
+          <td> 4 </td>
+          <td> Basketball </td>
+        </tr>
+        <tr>
+          <td> 3 </td>
+          <td> Badminton </td>
+        </tr>
+        <tr>
+          <td> 2 </td>
+          <td> Volleyball </td>
+        </tr>
+        <tr>
+          <td> 1 </td>
+          <td> Soccer </td>
+        </tr>
+      </table> <br> <br>
+
+      <form action="/action_page.php" method="get">
+
+        <i><h3><label for="ranking-sports"> If you agree with my ranking select yes but if you dont select <del> no </del> and type in your own ranking</label></h3></i> <!--This is a heading-->
+
+        <label for="Yes">Yes</label>
+        <input type="radio" id="yes" name="opinion" value="Yes"> <!--These are radio buttons. The either selects the yes button or the no button-->
+
+        <label for="No">No</label>
+        <input type="radio" id="No" name="opinion" value="No"> <br> <br> <!--These are radio buttons. The either selects the yes button or the no button-->
+
+        <textarea id="ranking-sports" name="ranking-sports" rows="4" cols="50"> Put your rankings in here.</textarea> <!--This creates a box where a person right what the question or paragraph is asking them to do.-->
+        <br> 
+        <h4> To give Reviews please fill in this information.</h4>
+
+        <br> <label for="date">Date</label>
+        <input type="date" id="date" name="date"> <br> <!--This is a prompt that asks for the date so I know when he put the review-->
+
+        <br> <label for="fname">First-Name</label>
+        <input type="text" id="fname" name="fname"> <br> <!--This creats a little box that asks for your first name-->
+
+        <br> <label for="lname">Last-Name</label>
+        <input type="text" id="lname" name="lname"> <br> <!--This creats a little box that asks for your last name-->
+
+        <br> <label for="email">Email-Add</label>
+        <input type="email" id="email" name="email"> <br> <!--This creats a little box that asks for your email-->
+        
+        <br> <input type="submit" value="Submit"> <!--This creats a submit button you press this after you fill all your information-->
+      </form>
+    </center>
+  </body>
+</html>
